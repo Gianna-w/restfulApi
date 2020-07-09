@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 //set mongoDB
-mongoose.connect('mongodb+srv://Gianna:gianna123@cluster0-akmem.mongodb.net/test?retryWrites=true&w=majority',{useNewUrlParser:true},() =>{
+mongoose.connect('your mongodb address',{useNewUrlParser:true},() =>{
     console.log("MongoDB connected");
 })
 
